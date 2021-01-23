@@ -1,0 +1,616 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Главная страница</title><!--[if IE]>
+    <meta http-equiv="X-UA-Compatible" content="IE = edge"><![endif]-->
+    <meta name="theme-color" content="#fff">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/favicons/favicon.ico" type="image/x-icon">
+    <link rel="icon" sizes="16x16" href="img/favicons/favicon-16x16.png" type="image/png">
+    <link rel="icon" sizes="32x32" href="img/favicons/favicon-32x32.png" type="image/png">
+    <link rel="apple-touch-icon-precomposed" href="img/favicons/apple-touch-icon-precomposed.png">
+    <link rel="apple-touch-icon" href="img/favicons/apple-touch-icon.png">
+    <link rel="apple-touch-icon" sizes="57x57" href="img/favicons/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="img/favicons/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="img/favicons/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="img/favicons/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="img/favicons/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="img/favicons/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="img/favicons/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="img/favicons/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="167x167" href="img/favicons/apple-touch-icon-167x167.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="img/favicons/apple-touch-icon-180x180.png">
+    <link rel="apple-touch-icon" sizes="1024x1024" href="img/favicons/apple-touch-icon-1024x1024.png">
+    <link rel="preload" as="font" type="font/woff2" href="fonts/GraphikLCG/GraphikLCG-Regular.woff" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/GraphikLCG/GraphikLCG-Medium.woff" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/GraphikLCG/GraphikLCG-SemiBold.woff" crossorigin>
+    <link rel="preload" as="font" type="font/woff2" href="fonts/GraphikLCG/GraphikLCG-Bold.woff" crossorigin>
+    <link rel="stylesheet" href="css/styles.min.css">
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="content">
+        <header class="header">
+          <div class="container">
+            <div class="header__wrap"><a class="logo" href="/"><img class="logo__img" src="images/general/logo.svg" alt="Логотип"></a>
+              <div class="header__right">
+                <nav class="main-nav">
+                  <ul class="main-nav__list">
+                    <li class="main-nav__item"><a class="main-nav__link main-nav__link--active" href="/">Главная</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="/">О школе</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="teachers.html">Преподаватели</a></li>
+                    <li class="main-nav__item"><a class="main-nav__link" href="reviews.html">Отзывы</a></li>
+                  </ul>
+                </nav>
+                <div class="social"><a class="social__link" href="/">
+                    <svg class="svg-icon icon-telegram social__icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#telegram"></use>
+                    </svg></a></div><a class="btn courses-btn" href="/">Все курсы</a>
+              </div>
+              <div class="sandwich"><a class="sandwich__open-btn" href="javascript:void(0);"><span class="sandwich__line"></span><span class="sandwich__line"></span><span class="sandwich__line"></span></a>
+                <div class="sandwich__content">
+                  <div class="sandwich__header">
+                    <h2 class="sandwich__title">Меню</h2><a class="sandwich__close-btn" href="javascript:void(0);">
+                      <svg class="svg-icon icon-close sandwich__close-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#close"></use>
+                      </svg></a>
+                  </div>
+                  <nav class="footer-nav sandwich-nav">
+                    <ul class="footer-nav__list sandwich-nav__list">
+                      <li class="footer-nav__item sandwich-nav_item"><a class="footer-nav__link sandwich-nav_link" href="/">Главная</a></li>
+                      <li class="footer-nav__item sandwich-nav_item"><a class="footer-nav__link sandwich-nav_link" href="/">О школе</a></li>
+                      <li class="footer-nav__item sandwich-nav_item"><a class="footer-nav__link sandwich-nav_link" href="teachers.html">Преподаватели</a></li>
+                      <li class="footer-nav__item sandwich-nav_item"><a class="footer-nav__link" href="/">Курсы</a></li>
+                      <li class="footer-nav__item sandwich-nav_item"><a class="footer-nav__link sandwich-nav_link" href="reviews.html">Отзывы</a></li>
+                      <li class="footer-nav__item sandwich-nav_item"><a class="footer-nav__link sandwich-nav_link" href="/">Сторис</a></li>
+                    </ul>
+                  </nav>
+                  <div class="social sandwich__social"><a class="social__link sandwich__social-link" href="/">
+                      <svg class="svg-icon icon-youtube social__icon sandwich__social-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#youtube"></use>
+                      </svg></a><a class="social__link sandwich__social-link" href="/">
+                      <svg class="svg-icon icon-instagram social__icon sandwich__social-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#instagram"></use>
+                      </svg></a><a class="social__link sandwich__social-link" href="/">
+                      <svg class="svg-icon icon-facebook social__icon sandwich__social-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#facebook"></use>
+                      </svg></a><a class="social__link sandwich__social-link" href="/">
+                      <svg class="svg-icon icon-telegram social__icon sandwich__social-icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#telegram"></use>
+                      </svg></a></div>
+                  <div class="phones sandwich__phones"><a class="phones__item phones__item--russia" href="tel:88006006691"><span class="phones__item-text">8 (800) 600-66-91</span></a><a class="phones__item phones__item--ukraine" href="tel:8800357228"><span class="phones__item-text">8 (800) 357-228</span></a><a class="phones__item phones__item--kz" href="tel:88000050020"><span class="phones__item-text">8 (800) 005-00-20</span></a><a class="phones__item phones__item--poland" href="tel:+48222662403"><span class="phones__item-text">+4 (822) 266-24-03</span></a></div><a class="sandwich__email-link" href="mailto:admin@lemonfortea.ru">admin@lemonfortea.ru</a>
+                  <div class="payments-prev">
+                    <div class="payments-prev__item"><img class="payments-prev__img" src="images/content/visa.png" alt=""></div>
+                    <div class="payments-prev__item"><img class="payments-prev__img" src="images/content/mastercard.png" alt=""></div>
+                    <div class="payments-prev__item"><img class="payments-prev__img" src="images/content/visa-electron.png" alt=""></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </header>
+        <div class="page-premium">
+          <div class="hero page-premium__hero">
+            <div class="container">
+              <div class="hero__wrap page-premium__hero-wrap">
+                <div class="hero__info page-premium__hero-info">
+                  <h1 class="main-title hero__title page-premium__hero-title">Премиум обучение <br>с годовой поддержкой</h1>
+                  <p class="hero__desc page-premium__hero-desc">от крупнейшей школы инвесторов</p>
+                  <p class="hero__subdesc page-premium__hero-subdesc">Как получить минимальную доходность <br>от 12% без рисков потерять все деньги</p><a class="btn hero__get-btn page-premium__hero-btn" href="/">Подробнее о курсе</a>
+                </div>
+                <div class="hero__img page-premium__hero-img"><img class="hero__img-pic" src="images/content/man.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="advantages page-premium__advantages">
+            <div class="container">
+              <h4 class="section-title section-title--fz30 advantages__title">На протяжении года проведём за руку от самых азов до стабильного заработка на фондовом рынке</h4>
+              <div class="advantages__wrap">
+                <div class="advantages-item page-premium__advantages-item">
+                  <div class="advantages-item__img page-premium__advantages-item-img">
+                    <svg class="svg-icon icon-adv-icon5 advantages-item__icon page-premium__advantages-item-icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon5"></use>
+                    </svg>
+                  </div>
+                  <div class="advantages-item__info page-premium__advantages-item-info">
+                    <p class="advantages-item__desc page-premium__advantages-item-desc">В закрытом чате сможете получить личную консультацию преподавателя на протяжении всего года</p>
+                  </div>
+                </div>
+                <div class="advantages-item page-premium__advantages-item">
+                  <div class="advantages-item__img page-premium__advantages-item-img">
+                    <svg class="svg-icon icon-adv-icon6 advantages-item__icon page-premium__advantages-item-icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon6"></use>
+                    </svg>
+                  </div>
+                  <div class="advantages-item__info page-premium__advantages-item-info">
+                    <p class="advantages-item__desc page-premium__advantages-item-desc">Даём понятные, конкретные рекомендации, честно показываем, что покупаем сами и объясняем почему</p>
+                  </div>
+                </div>
+                <div class="advantages-item page-premium__advantages-item">
+                  <div class="advantages-item__img page-premium__advantages-item-img">
+                    <svg class="svg-icon icon-adv-icon7 advantages-item__icon page-premium__advantages-item-icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon7"></use>
+                    </svg>
+                  </div>
+                  <div class="advantages-item__info page-premium__advantages-item-info">
+                    <p class="advantages-item__desc page-premium__advantages-item-desc">Делимся знаниями, позволяющими зарабатывать в 8-10 раз больше депозита. Наши результаты — 56,94% годовых</p>
+                  </div>
+                </div>
+                <div class="advantages-item page-premium__advantages-item page-premium__advantages-play">
+                  <div class="advantages-item__img page-premium__advantages-play-img">
+                    <svg class="svg-icon icon-adv-icon8 advantages-item__icon page-premium__advantages-play-icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon8"></use>
+                    </svg>
+                  </div>
+                  <div class="advantages-item__info page-premium__advantages-play-info">
+                    <p class="advantages-item__desc page-premium__advantages-play-desc">Сможете бесплатно получать записи всех следующих Платиновых курсов школы</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="warn">
+            <div class="container">
+              <div class="warn__wrap">
+                <div class="warn__info">
+                  <h4 class="warn__title">Внимание!</h4>
+                  <p class="warn__desc"><span class="warn__desc warn__desc--fw">Если ожидаете 100500% годовых, дальше можете не читать.</span> <br><br>Я за реальный, стабильный доход без рискованных спекуляций и обещаний заоблачных прибылей.</p>
+                </div>
+                <div class="warn__img"><img class="warn__img-pic" src="images/content/warn.png" alt=""></div>
+              </div>
+            </div>
+          </div>
+          <div class="investor-country">
+            <div class="container">
+              <h4 class="section-title section-title--fz30 investor-country__title">Присоединяйтесь к международному движению инвесторов «Лимон на чай»</h4>
+              <p class="section-desc investor-country__desc">Годовое обучение школы «Лимон на чай» прошло 2000+ инвесторов из 42 стран. <span class="section-desc--fw">Каждый получил знания, адаптированные под его конкретную страну</span></p>
+              <div class="investor-country__map"><img class="investor-country__map-img" src="images/content/investor-map.png" alt=""></div>
+              <div class="investor-country__map-wrap"><span class="investor-country__map-title">Наше обучение прошли инвесторы из:</span>
+                <ul class="investor-country__map-list">
+                  <li class="investor-country__map-item">России</li>
+                  <li class="investor-country__map-item">Украины</li>
+                  <li class="investor-country__map-item">Казахстана</li>
+                  <li class="investor-country__map-item">Беларуси</li>
+                  <li class="investor-country__map-item">Польши</li>
+                  <li class="investor-country__map-item">Германии</li>
+                  <li class="investor-country__map-item">Чехии</li>
+                  <li class="investor-country__map-item">Эстонии</li>
+                  <li class="investor-country__map-item">Латвии</li>
+                  <li class="investor-country__map-item">Франции</li>
+                  <li class="investor-country__map-item">США</li>
+                  <li class="investor-country__map-item">Канады</li>
+                  <li class="investor-country__map-item">ОАЭ</li>
+                  <li class="investor-country__map-item">Узбекистана</li>
+                  <li class="investor-country__map-item">Таиланда</li>
+                  <li class="investor-country__map-item">Южной Африки</li>
+                  <li class="investor-country__map-item investor-country__map-item--other">И другие страны</li>
+                </ul>
+                <p class="investor-country__map-desc">И с каждым новым потоком наша география расширяется</p>
+              </div>
+              <div class="avarage">
+                <div class="avarage__info">
+                  <h5 class="avarage__title">А сколько можно заработать?</h5>
+                  <p class="avarage__desc"><span class="avarage__desc avarage__desc--fw">Средняя доходность наших рекомендаций по акциям за 2020 год — 57%.</span> Как будет у вас, зависит от ситуации на рынке и вашей стратегии, но ориентироваться можно на похожий результат</p>
+                  <div class="avarage__img"><img class="avarage__img-pic" src="images/content/avarage.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="roadmap">
+            <div class="container">
+              <h4 class="section-title section-title--fz30 roadmap__title">Как проходит обучение?</h4>
+              <div class="steps roadmap__wrap">
+                <div class="steps-item"><span class="steps-item__num">01</span>
+                  <p class="steps-item__desc">16 занятий, 2-3 раза в неделю. Их расписание мы дадим вначале</p>
+                </div>
+                <div class="steps-item"><span class="steps-item__num">02</span>
+                  <p class="steps-item__desc">Дальше можете сами покупать активы при нашей поддержке, а можете повторять наши сделки и зарабатывать столько же</p>
+                </div>
+                <div class="steps-item"><span class="steps-item__num">03</span>
+                  <p class="steps-item__desc">Записи вебинаров сможете пересмотреть в любое время</p>
+                </div>
+                <div class="steps-item"><span class="steps-item__num">04</span>
+                  <p class="steps-item__desc">Подключим вас к закрытому чату с преподавателями, где будем показывать наши сделки с подробным анализом</p>
+                </div>
+                <div class="steps-item"><span class="steps-item__num">05</span>
+                  <p class="steps-item__desc">Там же будете получать аналитику, обзоры рынков и ответы на любые вопросы от преподавателей</p>
+                </div>
+                <div class="steps-item"><span class="steps-item__num">06</span>
+                  <p class="steps-item__desc">Сможете написать не только в общий чат, но и лично любому из преподавателей</p>
+                </div>
+                <div class="steps-item"><span class="steps-item__num">07</span>
+                  <p class="steps-item__desc">Даём понятные домашние задания с обратной связью и разбором полетов</p>
+                </div>
+                <div class="steps-item"><span class="steps-item__num">08</span>
+                  <p class="steps-item__desc">Такие рекомендации будут приходить 1-2 раза в месяц с детальным анализом</p>
+                </div>
+              </div>
+              <div class="gift">
+                <div class="gift__header">
+                  <div class="gift__info">
+                    <h5 class="gift__title">Новогодний подарок</h5>
+                    <p class="gift__desc">В дополнение к годовой поддержке от меня вы получите  бесплатно 6 крутых бонусов</p>
+                  </div>
+                  <div class="gift__img"><img class="gift__img-pic" src="images/content/gift.png" alt=""></div>
+                </div>
+                <div class="gift__main">
+                  <div class="gift-item">
+                    <div class="gift-item__img">
+                      <svg class="svg-icon icon-adv-icon8 gift-item__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon8"></use>
+                      </svg>
+                    </div>
+                    <div class="gift-item__info"><span class="gift-item__title">Доступ ко всем следующим годовым курсам</span>
+                      <p class="gift-item__desc">Для вас откроем все записи будущих потоков школы. То есть вы платите за один Платиновый курс, а пользоваться сможете многими. Это позволит вам быть в теме всех новинок и последних трендов фондового рынка.</p>
+                    </div>
+                  </div>
+                  <div class="gift-item">
+                    <div class="gift-item__img">
+                      <svg class="svg-icon icon-adv-icon9 gift-item__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon9"></use>
+                      </svg>
+                    </div>
+                    <div class="gift-item__info"><span class="gift-item__title">Помимо основного курса получаете бонусные видео</span>
+                      <p class="gift-item__desc">Мы будем их записывать на основе ваших вопросов и пожеланий, чтобы по итогу вам было все максимально понятно.</p>
+                    </div>
+                  </div>
+                  <div class="gift-item">
+                    <div class="gift-item__img">
+                      <svg class="svg-icon icon-adv-icon10 gift-item__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon10"></use>
+                      </svg>
+                    </div>
+                    <div class="gift-item__info"><span class="gift-item__title">Онлайн-курс «Где взять деньги на инвестирование»</span>
+                      <p class="gift-item__desc">Из него вы узнаете, с каких сумм можно стартовать и как начать инвестирование, даже если у тебя средняя зарплата.</p>
+                    </div>
+                  </div>
+                  <div class="gift-item">
+                    <div class="gift-item__img">
+                      <svg class="svg-icon icon-adv-icon11 gift-item__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon11"></use>
+                      </svg>
+                    </div>
+                    <div class="gift-item__info"><span class="gift-item__title">Еженедельный дайджест всего, что произошло за неделю на рынке</span>
+                      <p class="gift-item__desc">Новости, которые не все замечают, но которые могут отразиться на вашей доходности.</p>
+                    </div>
+                  </div>
+                  <div class="gift-item">
+                    <div class="gift-item__img">
+                      <svg class="svg-icon icon-adv-icon12 gift-item__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon12"></use>
+                      </svg>
+                    </div>
+                    <div class="gift-item__info"><span class="gift-item__title">Детскую книгу «Лимон-копилка — умный подарок»</span>
+                      <p class="gift-item__desc">Чтобы ребёнок стал успешным, фундамент нужно закладывать в самом раннем возрасте. Моя книга, как раз про это. В ней основы финансовой грамотности на примерах, понятных малышам.</p>
+                    </div>
+                  </div>
+                  <div class="gift-item">
+                    <div class="gift-item__img">
+                      <svg class="svg-icon icon-adv-icon13 gift-item__icon">
+                        <use xlink:href="images/svg/sprite/symbol/sprite.svg#adv-icon13"></use>
+                      </svg>
+                    </div>
+                    <div class="gift-item__info"><span class="gift-item__title">Взрывной набор книг</span>
+                      <p class="gift-item__desc">Эти книги написаны экспертами в инвестировании и бизнесе. Они перевернули мои взгляды на инвестирование и отношение к деньгам. Начните читать и, обещаю, — вы долго не уснёте :)</p>
+                    </div>
+                  </div>
+                </div>
+              </div><a class="btn roadmap__join-btn" href="/">Присоединиться к обучению</a>
+            </div>
+          </div>
+          <div class="speakers">
+            <div class="container">
+              <div class="speakers__top">
+                <div class="speakers__header">
+                  <div class="speakers__header-wrap">
+                    <h4 class="section-title section-title--fz30 speakers__title">Ваши преподаватели</h4>
+                    <p class="section-desc speakers__desc">Каждый наш эксперт — практик, умеющий доступно рассказывать сложные нюансы инвестирования</p>
+                  </div>
+                </div><a class="all-btn speakers__all-btn" href="/"><span class="all-btn__text">Смотреть всех спикеров</span>
+                  <svg class="svg-icon icon-arrow all-btn__arrow">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                  </svg></a>
+                <div class="speakers__wrap">
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher2.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Евгений Коваленко</span></div>
+                  </div>
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher2.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Илья Воробьев</span></div>
+                  </div>
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher3.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Татьяна Суфиянова</span></div>
+                  </div>
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher4.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Сергей Наумов</span></div>
+                  </div>
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher5.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Илья Воробьев</span></div>
+                  </div>
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher6.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Анастасия Щербенева</span></div>
+                  </div>
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher7.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Дмитрий Наривочкин</span></div>
+                  </div>
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher8.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Наталья Янцен</span></div>
+                  </div>
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher9.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Сергей Трухачев</span></div>
+                  </div>
+                  <div class="speakers-item">
+                    <div class="speakers-item__img"><img class="speakers-item__pic" src="images/content/teacher10.png" alt=""></div>
+                    <div class="speakers-item__info"><span class="speakers-item__name">Наталья Федосова</span></div>
+                  </div>
+                </div>
+              </div>
+              <div class="about-info">
+                <div class="about-info__content">
+                  <h5 class="about-info__title">Что еще за «Лимон на чай»?</h5>
+                  <div class="about-info__img"><img class="about-info__pic" src="images/content/phone.png" alt=""></div>
+                  <ul class="marker-list about-info__list">
+                    <li class="marker-list__item about-info__item">Крупнейший телеграм-канал по инвестированию и 1-й в категории «Экономика» по версии Telegram Analytic;</li>
+                    <li class="marker-list__item about-info__item">Более 160 000 подписчиков</li>
+                    <li class="marker-list__item about-info__item">«Форбс» включил «Лимон на чай» в топ-5 телеграм-каналов, влияющих на фондовый рынок</li>
+                    <li class="marker-list__item about-info__item">Только за год обучение с годовой поддержкой прошло 2000+ инвесторов</li>
+                  </ul>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="posts">
+            <div class="container">
+              <h4 class="section-title section-title--fz30 posts__title">Публикации в СМИ</h4>
+              <div class="posts__wrap">
+                <div class="posts-item"><span class="posts-item__title">Forbes</span>
+                  <p class="posts-item__desc">По мнению Forbes «Лимон на чай» входит в топ-5 каналов, оказывающих влияние на фондовый рынок.</p><a class="all-btn posts-item__all-btn" href="/"><span class="all-btn__text">Подробнее</span>
+                    <svg class="svg-icon icon-arrow all-btn__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                </div>
+                <div class="posts-item"><span class="posts-item__title">РБК</span>
+                  <p class="posts-item__desc">Мы делились опытом в торговле валютой</p><a class="all-btn posts-item__all-btn" href="/"><span class="all-btn__text">Подробнее</span>
+                    <svg class="svg-icon icon-arrow all-btn__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                </div>
+                <div class="posts-item"><span class="posts-item__title">Forbes</span>
+                  <p class="posts-item__desc">Колонка со статьями нашего постоянного эксперта Олега Абелева</p><a class="all-btn posts-item__all-btn" href="/"><span class="all-btn__text">Подробнее</span>
+                    <svg class="svg-icon icon-arrow all-btn__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                </div>
+                <div class="posts-item"><span class="posts-item__title">TUT.BY</span>
+                  <p class="posts-item__desc">Во что инвестировать во втором полугодии 2020</p><a class="all-btn posts-item__all-btn" href="/"><span class="all-btn__text">Подробнее</span>
+                    <svg class="svg-icon icon-arrow all-btn__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                </div>
+                <div class="posts-item"><span class="posts-item__title">Рамблер/финансы</span>
+                  <p class="posts-item__desc">Новости от нашего эксперта Олега Абелева</p><a class="all-btn posts-item__all-btn" href="/"><span class="all-btn__text">Подробнее</span>
+                    <svg class="svg-icon icon-arrow all-btn__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                </div>
+                <div class="posts-item"><span class="posts-item__title">Финам</span>
+                  <p class="posts-item__desc">Публикации в Финам нашего эксперта Олега Абелева</p><a class="all-btn posts-item__all-btn" href="/"><span class="all-btn__text">Подробнее</span>
+                    <svg class="svg-icon icon-arrow all-btn__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                </div>
+                <div class="posts-item"><span class="posts-item__title">Banki.ru</span>
+                  <p class="posts-item__desc">Евгений Коваленко рассказал, как заработать на инвестициях в акции.</p><a class="all-btn posts-item__all-btn" href="/"><span class="all-btn__text">Подробнее</span>
+                    <svg class="svg-icon icon-arrow all-btn__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="reviews page-premium__reviews">
+            <div class="container">
+              <div class="reviews__flex">
+                <h4 class="section-title section-title--fz30 reviews__title">Что говорят о нас ученики?</h4><a class="all-btn" href="/"><span class="all-btn__text">Смотреть все отзывы</span>
+                  <svg class="svg-icon icon-arrow all-btn__arrow">
+                    <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                  </svg></a>
+                <div class="reviews__wrap">
+                  <div class="reviews-prev">
+                    <div class="reviews-prev__header">
+                      <div class="reviews-prev__img"><img class="reviews-prev__img-pic" src="images/content/avatar1.png" alt=""></div><span class="reviews-prev__name">Сергей Бажура</span>
+                    </div>
+                    <p class="reviews-prev__desc">Добрый день, Евгений! Это лучший курс по инвестированию для меня! Для меня очень ценно в вашем обучении , что даёте самый необходимый набор знаний, то, что учителя наши всегда с нами на связи и не кидают после того, как отвели занятия! <br><br>Появилось понимание того что нужно делать дальше в плане инвестиций! Появились новые Контакты и знакомые! <br>Стал лучше разбираться в том, куда следует инвестировать, а куда пока не стоит! <br>Приобрёл много знаний и полезной литературы для дальнейшего прогресса в теме инвестирования! <br><br>Огромное вам за это спасибо, я вам очень благодарен! <br>Процветания вам и вашим близким и знакомым! 😊</p>
+                  </div>
+                  <div class="reviews-prev">
+                    <div class="reviews-prev__header">
+                      <div class="reviews-prev__img"><img class="reviews-prev__img-pic" src="images/content/avatar2.png" alt=""></div><span class="reviews-prev__name">Константин Невойт</span>
+                    </div>
+                    <p class="reviews-prev__desc">Евгений, Вы и Ваша команда занимаетесь очень хорошим делом. Вы повышаете финансовую грамотность людей. <br><br>Обучаете инвестициям. Показываете, что можно занимается любимым делом, при этом хорошо зарабатывать и получать удовольствие от жизни. Рассказываете какие есть возможности в сфере финансов. Я прошел курс "Инвестирование. Март 2020", при этом получил много полезной информации по направлению инвестиций. Так же познакомился с множеством единомышленников с которыми всегда можно посоветоваться. Продолжайте в том же направлении и Вы и Ваша команда сделаете мир чуточку лучше. <br><br>Спасибо большое Вам и Вашей команде за Ваши старания.</p>
+                  </div>
+                </div>
+                <div class="reviews__more"><span class="reviews__more-title">Хотите больше отзывов?</span>
+                  <p class="reviews__more-desc">Для отзывов мы создали отдельный телеграм-канал. Вы можете не только прочитать, что люди думают о нашем обучении, но и написать каждому человеку лично и узнать все из первых уст.</p><a class="all-btn reviews__more-btn" href="/"><span class="all-btn__text">Смотреть все отзывы</span>
+                    <svg class="svg-icon icon-arrow all-btn__arrow">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#arrow"></use>
+                    </svg></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="questions">
+            <div class="container"> 
+              <h4 class="section-title section-title--fz30 questions__title">Я еще хотел спросить...</h4>
+              <p class="section-desc questions__desc">Кликните на вопрос, который не даёт вам покоя, — читайте ответ</p>
+              <ul class="questions__list">
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">Сколько надо денег для старта?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">Сколько можно заработать на инвестировании?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">Что я буду знать после курса?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">Я только делаю первые шаги в инвестировании. Подойдет ли мне обучение?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">Я уже инвестор со стажем. Не будет мне скучно в школе? Получу ли я что-то полезное?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">А какая программа курса?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">Я живу НЕ в России. Смогу ли я инвестировать?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">По слухам, приближается мировой финансовый кризис. Стоит ли сейчас ввязываться в инвестирование?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">Сколько времени надо тратить на инвестирование? Это не помешает моей основной работе?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">Какую доходность я смогу получать?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">А если я сам буду изучать инвестирование?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+                <li class="questions-item">
+                  <div class="questions-item__header"><span class="questions-item__title">Можно ли доверять вашим экспертам?</span><span class="questions-item__icon"></span></div>
+                  <p class="questions-item__desc">Инвестирование можно начинать с 1000 рублей — это цена одной бумаги. Возможно (но редко) — некоторые брокеры устанавливают минимальный лимит для вложений. Но в любом случае 5-10 тысяч для старта — с головой.</p>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="garants">
+            <div class="container">
+              <div class="garants__wrap">
+                <h4 class="section-title section-title--fz30 garants__title garants__title--mobile">Какие гарантии?</h4>
+                <div class="garants__img"><img class="garants__img-pic" src="images/content/shield.png" alt=""></div>
+                <div class="garants__info">
+                  <h4 class="section-title section-title--fz30 garants__title">Какие гарантии?</h4>
+                  <div class="garants__advantages">
+                    <div class="garants__advantages-item">
+                      <div class="garants__advantages-text">Возможность пройти обучение с другой группой</div>
+                    </div>
+                    <div class="garants__advantages-item">
+                      <div class="garants__advantages-text">Гарантия качества</div>
+                    </div>
+                  </div>
+                  <p class="section-desc garants__desc"><span class="section-desc section-desc--fw">Мы инвестируем в те же активы, которые рекомендуем и честно показываем, сколько зарабатываем.</span> <br><br>То есть вы гарантировано можете получить доходность нашей команды, если будете прислушиваться к нашим рекомендациям.</p>
+                  <div class="garants__warn">
+                    <p class="garants__warn-text">Если в течение 14 дней вы решите не продолжать обучение, вернём деньги без лишних вопросов</p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="cost">
+            <div class="container">
+              <div class="cost__wrap">
+                <div class="cost__header">
+                  <div class="cost__header-info">
+                    <h4 class="section-title section-title--fz30 cost__title">Сколько стоит?</h4>
+                    <p class="cost__desc">Стоимость обучения с годовой поддержкой — 800$</p>
+                  </div>
+                  <div class="cost__price"><span class="cost__price-text">800$</span></div>
+                </div>
+                <div class="cost__main">
+                  <h4 class="section-title section-title--fz30 cost__main-title">В результате вы получаете:</h4>
+                  <ol class="cost__list">
+                    <li class="cost__list-item">16 занятий. Из них 6 — онлайн. Все простыми словами с понятными примерами</li>
+                    <li class="cost__list-item">Закрытый чат с нашими преподавателями, куда можно задавать вопросы напрямую любому эксперту</li>
+                    <li class="cost__list-item">Закрытый общий чат, где сможете обмениваться опытом с другими участниками</li>
+                    <li class="cost__list-item">Важные новости, изменения трендов рынка — всё, что напрямую влияет на вашу доходность</li>
+                    <li class="cost__list-item">Возможность проконсультироваться в личке с любым преподавателем; 6 мощных бонусов: книги, дополнительные видеокурсы и т.д.</li>
+                    <li class="cost__list-item">Возможность учиться и параллельно инвестировать</li>
+                    <li class="cost__list-item">Доступ к нашему портфелю. Это позволит вам получать доходность, которую получает наша команда</li>
+                    <li class="cost__list-item">Участвовать в последующих курсах с годовой поддержкой бесплатно.  Все материалы остаются у вас пожизненно</li>
+                  </ol>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <footer class="footer">
+          <div class="container">
+            <div class="footer__main">
+              <div class="footer__side"><a class="logo" href="/"><img class="logo__img" src="images/general/logo-white.svg" alt="Логотип"></a><span class="copyright">® Все права защищены</span>
+                <div class="legal-info"><span class="legal-info__text legal-info__text--white">ИП Матвеев Дмитрий Вадимович</span><span class="legal-info__text">ИНН 470422184305</span><span class="legal-info__text">ОГРН 319470400079579</span></div>
+              </div>
+              <div class="footer__side">
+                <nav class="footer-nav">
+                  <ul class="footer-nav__list">
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="/">Главная</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="/">О школе</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="teachers.html">Преподаватели</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="/">Курсы</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="reviews.html">Отзывы</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="/">Сторис</a></li>
+                    <li class="footer-nav__item"><a class="footer-nav__link" href="/">Контакты</a></li>
+                  </ul>
+                </nav>
+              </div>
+              <div class="footer__side"><a class="btn courses-btn footer__courses-btn" href="/">Все курсы</a>
+                <div class="social footer__social"><a class="social__link footer__social-link" href="/">
+                    <svg class="svg-icon icon-youtube social__icon footer__social-icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#youtube"></use>
+                    </svg></a><a class="social__link footer__social-link" href="/">
+                    <svg class="svg-icon icon-instagram social__icon footer__social-icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#instagram"></use>
+                    </svg></a><a class="social__link footer__social-link" href="/">
+                    <svg class="svg-icon icon-facebook social__icon footer__social-icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#facebook"></use>
+                    </svg></a><a class="social__link footer__social-link" href="/">
+                    <svg class="svg-icon icon-telegram social__icon footer__social-icon">
+                      <use xlink:href="images/svg/sprite/symbol/sprite.svg#telegram"></use>
+                    </svg></a></div>
+              </div>
+              <div class="footer__side">
+                <div class="phones"><a class="phones__item phones__item--russia" href="tel:88006006691"><span class="phones__item-text">8 (800) 600-66-91</span></a><a class="phones__item phones__item--ukraine" href="tel:8800357228"><span class="phones__item-text">8 (800) 357-228</span></a><a class="phones__item phones__item--kz" href="tel:88000050020"><span class="phones__item-text">8 (800) 005-00-20</span></a><a class="phones__item phones__item--poland" href="tel:+48222662403"><span class="phones__item-text">+4 (822) 266-24-03</span></a></div><a class="footer__email-link" href="mailto:admin@lemonfortea.ru">admin@lemonfortea.ru</a>
+                <div class="payments-prev">
+                  <div class="payments-prev__item"><img class="payments-prev__img" src="images/content/visa.png" alt=""></div>
+                  <div class="payments-prev__item"><img class="payments-prev__img" src="images/content/mastercard.png" alt=""></div>
+                  <div class="payments-prev__item"><img class="payments-prev__img" src="images/content/visa-electron.png" alt=""></div>
+                </div>
+              </div>
+            </div>
+            <div class="footer__bottom">
+              <nav class="info-nav">
+                <ul class="info-nav__list">
+                  <li class="info-nav__item"><a class="info-nav__link" href="contract.html">Договор оферты</a></li>
+                  <li class="info-nav__item"><a class="info-nav__link" href="/">Политика конфиденциальности</a></li>
+                  <li class="info-nav__item"><a class="info-nav__link" href="/">Оплата</a></li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </footer>
+      </div>
+    </div>
+    <script src="js/vendor/libs.min.js"></script>
+    <script src="js/main.min.js"></script>
+  </body>
+</html>
